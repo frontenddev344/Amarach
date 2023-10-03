@@ -9,8 +9,16 @@
 }
 
 @media (max-width:991px) {
+
+
     span.mobile-button {
         display: block;
+    }
+
+    .social-links ul li a {
+
+        display: flex !important;
+
     }
 
     span.mobile-button i {
@@ -37,6 +45,8 @@
 
     header.site-header .navigation .menu ul li a {
         color: var(--white);
+        padding: 20px 0;
+        display: inline-block;
     }
 
     .menu.navigation_link.mobile-open {
@@ -53,6 +63,7 @@
     .menu.navigation_link.mobile-open ul {
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .social-links ul {

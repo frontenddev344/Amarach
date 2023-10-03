@@ -284,6 +284,13 @@ nav.footer-links {
     justify-content: center;
 }
 
+.footer-icon ul li a:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .footer-icon ul li a i.fa.fa-facebook {
     background-color: #135cb6;
     width: 40px;
