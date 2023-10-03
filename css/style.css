@@ -684,7 +684,8 @@ section#abuot {
 
 section#contact {
     background: linear-gradient(194deg, rgba(2, 159, 157, 1) 0%, rgba(1, 85, 153, 1) 100%);
-    padding: 80px 0;
+    padding: 100px 0;
+    text-align: center;
 
 }
 
