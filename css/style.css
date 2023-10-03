@@ -632,6 +632,10 @@ section.our-section .our-service p {
     margin-top: 20px;
 }
 
+.partner-iner {
+    overflow: hidden;
+}
+
 .partner-iner .row {
     align-items: center;
 }
@@ -655,6 +659,7 @@ section#service {
 section#partner {
     padding-bottom: 90px;
     margin-top: 70px;
+    overflow: hidden;
 }
 
 .text-partners p {
@@ -662,6 +667,10 @@ section#partner {
     font-size: 18px;
     line-height: 30px;
 
+}
+
+section#abuot {
+    overflow: hidden;
 }
 
 /*  */
