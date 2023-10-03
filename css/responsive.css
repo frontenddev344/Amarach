@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1300px) and (min-width: 991px) {
+    .ser-content-box {
+        height: 480px;
+    }
+}
+
 @media(max-width:1199px) {
     section.site-banner .banner-wrapper {
         height: 700px;
@@ -9,7 +15,9 @@
 }
 
 @media (max-width:991px) {
-
+    .ser-content-box {
+        height: auto;
+    }
 
     span.mobile-button {
         display: block;
@@ -115,6 +123,7 @@
 
         z-index: 999;
     }
+
 
 }
 
