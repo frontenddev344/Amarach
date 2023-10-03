@@ -1,0 +1,114 @@
+@media(max-width:1199px) {
+    section.site-banner .banner-wrapper {
+        height: 700px;
+    }
+
+    header.site-header .navigation .menu ul li {
+        margin: 0 25px;
+    }
+}
+
+@media (max-width:991px) {
+    span.mobile-button {
+        display: block;
+    }
+
+    span.mobile-button i {
+        color: var(--menu);
+        font-size: 27px;
+    }
+
+    header.site-header .navigation .menu {
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
+        width: 60%;
+        align-items: self-start;
+        height: 100vh;
+        justify-content: flex-start;
+        transition: all .3s ease;
+        transform: translateX(-700px);
+        z-index: 9999999;
+    }
+
+    header.site-header .navigation .menu ul li a {
+        color: var(--white);
+    }
+
+    .menu.navigation_link.mobile-open {
+
+        visibility: visible !important;
+        opacity: 1 !important;
+        transition: all .3s ease;
+        transform: translateX(0px) !important;
+        background: var(--black);
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    }
+
+    .menu.navigation_link.mobile-open ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-links ul {
+        flex-direction: row !important;
+    }
+
+    section.site-banner .text h1 {
+
+        font-size: 38px;
+        padding: 0 20px;
+    }
+
+    section.site-banner .banner-wrapper {
+        height: 600px;
+    }
+
+    .choose-inr .row .col-lg-4.col-md-6:nth-child(3) {
+        margin-top: 40px;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    .wrapper-for-arrows {
+        width: 100%;
+
+    }
+
+    nav.footer-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav.footer-links ul li {
+        border-bottom: none;
+    }
+
+    section.amarach {
+        padding: 30px 20px;
+    }
+
+    section.amarach .amarach-text h2 {
+        font-size: 26px;
+
+    }
+
+    .text {
+
+        z-index: 999;
+    }
+
+}
+
+@media (max-width:767px) {
+    .choose-inr .row .col-lg-4.col-md-6:nth-child(2) {
+        margin-top: 40px;
+    }
+}
