@@ -468,7 +468,6 @@ section.choose {
 .ser-img {
     position: relative;
     overflow: hidden;
-    margin: 10px;
     min-width: 240px;
     max-width: 240px;
     max-height: 220px;
@@ -537,11 +536,17 @@ h3.heading-font {
 }
 
 .ser-content-box:hover {
-    background-image: radial-gradient(circle farthest-corner at 50% 0, #0c6f96 75%, #3fd8e6 75.3%);
+    background: linear-gradient(194deg, rgba(2, 159, 157, 1) 0%, rgba(1, 85, 153, 1) 100%);
     color: #fff;
     transition: all 0.3s;
 }
-
+/* .item-cards:hover .ser-img::after {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+} */
 .ser-content-box:hover h3.heading-font a {
 
     color: #fff;
