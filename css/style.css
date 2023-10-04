@@ -71,7 +71,7 @@ header.site-header .navigation .menu {
 
 header.site-header .navigation .menu ul {
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: center;
 }
 
@@ -102,31 +102,7 @@ header.site-header .navigation .menu ul li a:hover:after {
     transform: scaleX(1);
 }
 
-.social-links ul li {
-    margin: 0 !important;
 
-}
-
-.social-links ul li a {
-    background: linear-gradient(194deg, rgba(2, 159, 157, 1) 0%, rgba(1, 85, 153, 1) 100%);
-    margin: 0 0 0 13px;
-    width: 40px;
-    height: 40px;
-    transition: all 0.3s;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white) !important;
-}
-
-.social-links ul li a:hover {
-    background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
-    animation-name: pulse;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
 
 span.mobile-button {
     display: none;
@@ -142,6 +118,16 @@ span.mobile-button {
     }
 }
 
+.social-links .bnr-btn a:hover {
+    background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+span.close {
+    display: none;
+}
 /* Header css end */
 /* Banner start */
 section.site-banner {
