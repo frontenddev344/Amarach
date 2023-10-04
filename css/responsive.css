@@ -159,4 +159,17 @@
     header.site-header .navigation .menu {
         width: 90%;
     }
+
+    section.site-banner .text h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    section.site-banner .banner-wrapper {
+        height: 500px;
+    }
+
+    .contact-text h3 {
+        font-size: 28px;
+    }
 }
