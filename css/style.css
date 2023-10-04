@@ -125,9 +125,19 @@ span.mobile-button {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 span.close {
     display: none;
 }
+
+/* header.site-header.sticky {
+    background-color: var(--white);
+    position: fixed;
+    box-shadow: 0 0px 14px 1px #88828252;
+    width: 100%;
+    z-index: 99999999;
+} */
+
 /* Header css end */
 /* Banner start */
 section.site-banner {
