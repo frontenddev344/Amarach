@@ -285,6 +285,7 @@ nav.footer-links {
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    box-shadow: 0 0 5px var(--red);
 }
 
 .footer-icon ul li a i.fa.fa-facebook {
