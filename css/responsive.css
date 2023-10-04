@@ -143,7 +143,9 @@
 
         z-index: 999;
     }
-
+    .partner-iner .row{
+        flex-direction: column-reverse;
+    }
 
 }
 
