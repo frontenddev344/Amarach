@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet"
+    <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
     <link rel="stylesheet" href="css/aos.css">
 
 </head>
@@ -416,57 +416,10 @@
     <!--  -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-        $(document).ready(function (e) {
-            $(".mobile-button").click(function (event) {
-                $(".navigation_link").toggleClass("mobile-open");
-                event.stopPropagation();
-            });
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
 
-            $(document).click(function (event) {
-                if (!$(event.target).hasClass('link')) {
-                    $(".navigation_link").removeClass("mobile-open");
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var header = $("header");
-                header.toggleClass("sticky", $(window).scrollTop() > 100);
-            });
-        });
-
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 40,
-            autoplay: true,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false
-                },
-                600: {
-                    items: 2,
-                    nav: false
-                },
-                1000: {
-                    items: 3,
-                    nav: false,
-                    loop: true
-                }
-            }
-        })
-    </script>
     <script src="js/aos.js"></script>
-    <script>AOS.init({
-            duration: 1200,
-        })</script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
