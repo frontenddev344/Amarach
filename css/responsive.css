@@ -173,3 +173,9 @@
         font-size: 28px;
     }
 }
+
+@media (max-width:575px) {
+    .item-wrapper h2 {
+        font-size: 28px;
+    }
+}
