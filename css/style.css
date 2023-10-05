@@ -182,6 +182,29 @@ span.close {
     margin-bottom: 20px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    /* make things invisible upon start */
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1.3s;
+}
+
+.fade-in.delayed {
+    animation-delay: 1.2s;
+}
+
+
 .banner-wrapper .bnr-text p {
     font-size: 18px;
     width: 100%;
@@ -394,6 +417,7 @@ section.partner-section h2 {
 
 section.partner-section {
     padding-bottom: 100px;
+
 }
 
 /* footer css start start */
