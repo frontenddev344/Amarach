@@ -557,8 +557,10 @@ nav.footer-links {
 
 /*  */
 section#contact {
-    background: linear-gradient(194deg, rgba(2, 159, 157, 1) 0%, rgba(1, 85, 153, 1) 100%);
+    background: #26262c;
+    position: relative;
     padding: 100px 0;
+    z-index: 99;
 }
 
 .contact-text h3 {
@@ -656,3 +658,5 @@ input#submit {
 input#submit:hover {
     background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
 }
+
+/* 
