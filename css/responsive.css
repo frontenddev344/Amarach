@@ -5,16 +5,36 @@
 }
 
 @media(max-width:1199px) {
-    section.site-banner .banner-wrapper {
-        height: 700px;
-    }
 
     header.site-header .navigation .menu ul li {
         margin: 0 25px;
     }
+
+    .banner-wrapper .bnr-text h1 {
+        font-size: 50px;
+
+    }
+
+    .site-banner {
+        padding: 100px 0;
+
+    }
 }
 
 @media (max-width:991px) {
+    .site-banner {
+        padding: 60px 0;
+    }
+
+    .banner-wrapper .bnr-text h1 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .banner-wrapper .bnr-text p {
+        font-size: 16px;
+       
+    }
+
     span.close i {
         color: #fff;
         font-size: 20px;
@@ -143,7 +163,8 @@
 
         z-index: 999;
     }
-    .partner-iner .row{
+
+    .partner-iner .row {
         flex-direction: column-reverse;
     }
 
