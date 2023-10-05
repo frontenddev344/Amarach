@@ -643,6 +643,7 @@ input#submit {
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
+    transition: all 0.3s ease-in;
 }
 
 .form_wrap h3 {
@@ -650,4 +651,8 @@ input#submit {
     font-size: 40px;
     margin-bottom: 40px;
     font-weight: 600;
+}
+
+input#submit:hover {
+    background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
 }
