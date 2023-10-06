@@ -238,6 +238,11 @@
         max-width: 500px;
         margin: 0 auto;
     }
+
+    section.partner-section {
+
+        background-attachment: unset;
+    }
 }
 
 @media (max-width:767px) {
