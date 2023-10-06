@@ -141,7 +141,7 @@ span.close {
 }
 
 .bnr-btn p {
-    padding: 0 40px 0 0;
+    padding: 0 10px 0 0;
     margin: 0;
 
     font-weight: 500;
@@ -272,7 +272,7 @@ span.close {
 /* About page css */
 .aboutsection {
     background-color: #26262c;
-
+    margin-top: 80px;
     padding: 100px 0 150px;
     z-index: 11;
     position: relative;
