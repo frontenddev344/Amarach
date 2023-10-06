@@ -325,11 +325,12 @@ span.close {
     position: absolute;
     top: 50px;
     right: 0;
+    z-index: -1;
 }
 
 /* service page css */
 section#service {
-    padding: 120px 40px;
+    padding: 120px 0px;
 }
 
 .service-wrapper {
