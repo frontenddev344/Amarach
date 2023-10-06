@@ -663,6 +663,7 @@ section#contact {
     color: var(--white);
     font-size: 16px;
     line-height: 30px;
+    font-weight: 500;
 }
 
 /* Input form Style */
