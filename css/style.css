@@ -608,7 +608,7 @@ section#contact {
 
 /* Input form Style */
 
-input {
+/* input {
     border: 2px solid #afbdcf;
     border-radius: 5px;
     height: 47px;
@@ -620,7 +620,7 @@ input {
     box-shadow: none;
 }
 
-/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
+/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. 
 
 input:focus+label,
 input:valid+label {
@@ -687,6 +687,5 @@ input#submit {
 
 input#submit:hover {
     background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
-}
+} */
 
-/* 
