@@ -23,6 +23,7 @@
         width: 65%;
 
     }
+
     .social-links {
         width: 35%;
     }
@@ -46,6 +47,7 @@
     .search-engine.billboard {
         padding: 0px 0px 0 0;
     }
+
     .site-banner {
         padding: 60px 0;
     }
@@ -218,6 +220,12 @@
 
     .bnr-btn p {
         color: var(--white);
+    }
+
+    .partner-words p {
+
+        max-width: 100%;
+
     }
 }
 
