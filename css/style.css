@@ -214,6 +214,7 @@ span.close {
     width: 100%;
     max-width: 946px;
     line-height: 35px;
+    font-weight: 50px;
 }
 
 .site-btn {
@@ -418,6 +419,7 @@ section.partner-section h2 {
     font-size: 16px;
     line-height: 32px;
     max-width: 600px;
+    font-weight: 600;
 }
 
 section.partner-section {
@@ -428,13 +430,16 @@ section.partner-section {
 
 }
 
+.partner-img {
+    text-align: center;
+}
+
 .partner-img img {
-    animation: spin 3.5s infinite linear
+    animation: spin 3.5s infinite linear;
+    max-width: 550px;
 }
 
-@keyframes spin {
-
-}
+@keyframes spin {}
 
 /* footer css start start */
 footer.footer {
@@ -697,4 +702,4 @@ input#submit {
 
 input#submit:hover {
     background: linear-gradient(194deg, rgba(1, 85, 153, 1) 0%, rgba(2, 159, 157, 1) 100%);
-} 
+}
