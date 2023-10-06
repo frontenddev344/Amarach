@@ -223,9 +223,10 @@
     }
 
     .partner-words p {
-
         max-width: 100%;
-
+    }
+    .search-engine p {
+        max-width: 540px;
     }
 }
 
