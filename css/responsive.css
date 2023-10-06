@@ -2,12 +2,33 @@
     .ser-content-box {
         height: 480px;
     }
+
+    .social-links {
+        width: 30%;
+    }
+
+    header.site-header .navigation .menu ul li {
+        margin: 0 20px;
+    }
+
+    .bnr-btn p {
+        padding: 0 10px 0 0;
+
+    }
 }
 
 @media(max-width:1199px) {
+    header.site-header .navigation .menu ul {
+
+        width: 65%;
+
+    }
+    .social-links {
+        width: 35%;
+    }
 
     header.site-header .navigation .menu ul li {
-        margin: 0 25px;
+        margin: 0 15px;
     }
 
     .banner-wrapper .bnr-text h1 {
@@ -22,6 +43,9 @@
 }
 
 @media (max-width:991px) {
+    .search-engine.billboard {
+        padding: 0px 0px 0 0;
+    }
     .site-banner {
         padding: 60px 0;
     }

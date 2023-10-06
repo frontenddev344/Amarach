@@ -12,6 +12,10 @@
     --hover: #029f9d;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
