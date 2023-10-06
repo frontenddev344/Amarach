@@ -233,6 +233,11 @@
     .wrapper-box p {
         max-width: 632px;
     }
+
+    .foot-address {
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width:767px) {
