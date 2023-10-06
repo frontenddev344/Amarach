@@ -57,6 +57,7 @@ header.site-header {
     padding: 10px 0;
     z-index: 9999;
     position: relative;
+    transition: all 0.3s ease-in;
 }
 
 header.site-header .navigation {
@@ -166,6 +167,14 @@ span.close {
     color: var(--white);
 }
 
+header.site-header.sticky {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s ease;
+  
+}
 
 
 /* Header css end */
@@ -424,7 +433,7 @@ section.partner-section h2 {
 }
 
 section.partner-section {
-    padding: 80px 0;
+    padding: 60px 0;
     background: url(../img/4568d1f1a0.jpeg);
     background-position: left;
     background-attachment: fixed;
