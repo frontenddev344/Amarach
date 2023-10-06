@@ -355,6 +355,7 @@ section#service {
     width: 100%;
     max-width: 492px;
     line-height: 32px;
+    font-weight: 600;
 }
 
 .search-engine h3 {
@@ -427,6 +428,7 @@ section.partner-section {
     background: url(../img/4568d1f1a0.jpeg);
     background-position: left;
     background-attachment: fixed;
+ 
 
 }
 
@@ -435,11 +437,10 @@ section.partner-section {
 }
 
 .partner-img img {
-    animation: spin 3.5s infinite linear;
+
     max-width: 550px;
 }
 
-@keyframes spin {}
 
 /* footer css start start */
 footer.footer {
