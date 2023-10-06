@@ -225,8 +225,13 @@
     .partner-words p {
         max-width: 100%;
     }
+
     .search-engine p {
         max-width: 540px;
+    }
+
+    .wrapper-box p {
+        max-width: 632px;
     }
 }
 
