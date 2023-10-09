@@ -81,8 +81,8 @@ header.site-header .navigation .menu {
 
 header.site-header .navigation .menu ul {
     display: flex;
-    width: 75%;
-    justify-content: center;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 header.site-header .navigation .menu ul li {
